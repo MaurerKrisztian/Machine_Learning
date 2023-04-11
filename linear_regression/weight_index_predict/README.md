@@ -7,7 +7,7 @@ Setup:
 ```shell
 python3 train_model.py
 ```
-This will train the model on `data/peoples.csv` and save it to `/model/my_model.pkl`
+This will train the model on `data/people.csv` and save it to `/model/my_model.pkl`
 
 - apply to new data
 

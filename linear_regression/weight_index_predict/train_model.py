@@ -26,7 +26,7 @@ def evaluate_model(model, x, y):
     print('R-squared:', r_squared)
 
 def main():
-    x, y = get_data("./data/peoples.csv")
+    x, y = get_data("./data/people.csv")
     model = train_model(x, y)
     evaluate_model(model, x, y)
     utils.save_model(model, './model/my_model.pkl')
